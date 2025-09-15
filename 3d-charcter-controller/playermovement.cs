@@ -14,6 +14,7 @@ public class Playermovement : MonoBehaviour
    Animator anim;
     void Start()
     {
+    Cursor.visible = false;
        
         controller = GetComponent<CharacterController>();
         anim = GetComponent<Animator>();
